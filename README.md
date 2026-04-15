@@ -65,50 +65,24 @@ The carton moves on the main conveyor and stops precisely at the green filling s
   - Monostable pusher with extend/retract feedback
 
 ---
+## 📸 Project Preview
 
-## 🔌 I/O Mapping
+### 🔹 System Configuration
+![Driver Setup](0.png)
 
-| Inputs (Sensors)         | Address   | Outputs (Actuators) | Address |
-|--------------------------|----------|---------------------|--------|
-| Start / Stop Buttons     | %I0.0 / %I0.1 | Main Conveyor       | %Q0.0  |
-| Cart Position Sensor     | %I0.2    | Green Conveyor      | %Q0.1  |
-| Green Item Sensor        | %I0.3    | Blue Conveyor       | %Q0.2  |
-| Blue Item Sensor         | %I0.4    | Pneumatic Pusher    | %Q0.3  |
-| Pusher Front/Back Limits | %I0.5 / %I0.6 | System Indicators | %Q0.X  |
+### 🔹 Control Logic (Ladder Diagram)
+![Logic 1](1.png)  
+![Logic 2](2.png)
+![Logic 3](3.png)  
+![Logic 4](4.png)
 
----
-
-## 📸 Project Documentation
-
-### 🟡 Cart Positioning & Filling Logic
-
-![Cart System](0.png)  
-*Cart movement and positioning at filling stations.*
+### 🔹 Factory I/O Simulation
+![Scene](scene.png)
 
 ---
 
-### 🧩 Sequential Ladder Logic
-
-![Ladder 1](1.png)  
-![Ladder 2](2.png)  
-![Ladder 3](3.png)  
-![Ladder 4](4.png)  
-*Implementation of step-based logic and counting system.*
-
----
-
-### 🏭 Simulation Environment
-
-![Scene View](scene.png)  
-*3D layout showing conveyors, carton flow, and filling stations.*
-
----
-
-## 📺 Demonstration
-
-> 🎥 Watch the Carton Filling System in Action  
-> *(Video shows full cycle: movement, green filling, indexing, blue pusher operation)*
-
+## 🎥 Demo Video
+👉 [Watch full system demonstration](video.mp4)
 ---
 
 ## 🚀 Execution Instructions
