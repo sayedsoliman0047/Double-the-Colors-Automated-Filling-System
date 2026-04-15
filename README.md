@@ -1,5 +1,4 @@
 # Double-the-Colors-Automated-Filling-System
-# 📦 Double the Colors: Carton Filling & Indexing System
 
 ## 📌 Project Overview
 
@@ -93,13 +92,5 @@ The carton moves on the main conveyor and stops precisely at the green filling s
 4. Set driver to **Siemens S7-PLCSIM** and connect
 5. Switch PLC to **RUN**
 6. Start the system from the control panel
-
----
-
-## 💡 Notes
-
-- Fully step-based industrial automation logic
-- Designed to simulate real packaging line behavior
-- Easy to expand (add more colors / stations / sensors)
 
 ---
