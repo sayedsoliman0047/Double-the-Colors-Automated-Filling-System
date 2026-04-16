@@ -1,6 +1,6 @@
 # Double-the-Colors-Automated-Filling-System
 
-## 📌 Project Overview
+##  Project Overview
 
 "Double the Colors" is an industrial automation project that simulates a **carton filling and indexing system** used in real packaging lines. Developed using **Siemens TIA Portal** and **Factory IO**, the system controls the movement of cartons and fills them with products based on a predefined sequence.
 
@@ -13,7 +13,7 @@ using conveyors and a **pneumatic pusher mechanism**.
 
 ---
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 - **PLC Programming:** Siemens TIA Portal (S7-1200)
 - **Simulation:** Factory IO (Custom Scene)
@@ -23,7 +23,7 @@ using conveyors and a **pneumatic pusher mechanism**.
 
 ---
 
-## ⚙️ Advanced Control Strategy
+##  Advanced Control Strategy
 
 This project demonstrates a **multi-stage sequential filling process**:
 
@@ -49,7 +49,7 @@ The carton moves on the main conveyor and stops precisely at the green filling s
 
 ---
 
-## 🧠 Technical Highlights
+##  Technical Highlights
 
 - **Sequential (Step-Based) Control**
   - System works as a state machine
@@ -64,27 +64,27 @@ The carton moves on the main conveyor and stops precisely at the green filling s
   - Monostable pusher with extend/retract feedback
 
 ---
-## 📸 Project Preview
+##  Project Preview
 
-### 🔹 System Configuration
+###  System Configuration
 ![Driver Setup](0.png)
 
-### 🔹 Control Logic (Ladder Diagram)
+###  Control Logic (Ladder Diagram)
 ![Logic 1](1.png)  
 ![Logic 2](2.png)
 ![Logic 3](3.png)  
 ![Logic 4](4.png)
 
-### 🔹 Factory I/O Simulation
+###  Factory I/O Simulation
 ![Scene](scene.png)
 
 ---
 
-## 🎥 Demo Video
-👉 [Watch full system demonstration](video.mp4)
+##  Demo Video
+ [Watch full system demonstration](video.mp4)
 ---
 
-## 🚀 Execution Instructions
+##  Execution Instructions
 
 1. Open the project in **TIA Portal V16 or later**
 2. Compile and download to **S7-PLCSIM**
@@ -93,4 +93,3 @@ The carton moves on the main conveyor and stops precisely at the green filling s
 5. Switch PLC to **RUN**
 6. Start the system from the control panel
 
----
